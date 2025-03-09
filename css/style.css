@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#ff0000;
+    --main-color:#346895;
 }
 ::selection{
     background-color: var(--main-color);
@@ -25,7 +25,7 @@ html{
 }
 
 body{
-    background: rgb(248, 166, 148);
+    background: #008682;
     padding-left: 30rem;
 }
 
@@ -64,7 +64,7 @@ section{
 header{
     position: fixed;
     top:0; left:0; bottom:0;
-    background:#f6d8d1;
+    background:#c5fff8;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,7 +77,7 @@ header{
 
 header .logo{
     text-transform: uppercase;
-    color:#fff;
+    color:#003335;
     font-size: 3rem;
     font-weight: bolder;
 }
@@ -90,7 +90,7 @@ header .logo span{
 header .navbar a{
     display: block;
     font-size: 2rem;
-    color:#fff;
+    color:#003335;
     margin:2rem 0;
 }
 
@@ -101,7 +101,7 @@ header .navbar a:hover{
 
 header .follow a{
     font-size: 2.5rem;
-    color:#fff;
+    color:#003335;
     margin:0 .7rem;
 }
 
@@ -152,8 +152,6 @@ header .follow a:hover{
     transition: .1s linear;
 }
 
-
-
 .cursor-2.active{
     display: none;
 }
@@ -201,7 +199,7 @@ header .follow a:hover{
 
 .home .content .text{
     font-size: 1.7rem;
-    color:#666;
+    color:#3931a7;
     padding:.5rem 0;
 }
 
@@ -679,16 +677,6 @@ header .follow a:hover{
 
     }
 }
-  
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 @media (max-width:991px){
