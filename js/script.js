@@ -49,3 +49,15 @@ closeMark.onclick = () =>{
 btnn.onclick = () =>{
     submitWindow.style.display = "block";
 }
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwSu8OnnSfPxE9EK15xEwFPozCPdGaOtEnNiGePf-jrMgC3I-3CJmdy1ScUKJFmEwExmA/exec'
+const form = document.forms['submit-to-google-sheet']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        form.reset();
+    })
+    .catch(error => console.error('Error!', error.message))
+})
