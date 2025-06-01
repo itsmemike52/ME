@@ -65,7 +65,7 @@ section{
 header{
     position: fixed;
     top:0; left:0; bottom:0;
-    background: grey; /* color sa side bar */
+    background: rgb(36, 35, 35); /* color sa side bar */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -286,7 +286,7 @@ header .follow a:hover{
 
 .about .row-2 .skills .progress .bar{
     width:100%;
-    background:orange; /* progress level */
+    background:rgb(252, 224, 173); /* progress level */
     overflow:hidden;
     height:1rem;
     border-radius: 50rem;
