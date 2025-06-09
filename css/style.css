@@ -554,7 +554,7 @@ header .follow a:hover{
 .contact .row form textarea{
     width: 100%;
     border-bottom: .1rem solid black;
-    color:white;
+    color:black;
     text-transform: none;
     font-size: 1.7rem;
     padding:1rem 0;
